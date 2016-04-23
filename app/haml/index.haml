@@ -1,0 +1,100 @@
+!!! 5
+%html{leng: 'en'}
+  %head
+    %meta{charset: 'UTF-8'}
+    %title Weather Application
+    %link{href: 'https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css', rel: 'stylesheet', type: 'text/css'}
+    %link{href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', rel: 'stylesheet', type: 'text/css'}
+    %link{href: 'https://fonts.googleapis.com/css?family=Raleway:400,500', rel: 'stylesheet', type: 'text/css'}
+    %link{href: 'css/index.css', rel: 'stylesheet', type: 'text/css'}
+  %body{'ng-app': 'Weather'}
+    .container{'ng-controller': 'MainCtrl'}
+      .row
+        %header.col-md-12.text-center
+          %p.search
+            %input.form-control{type: 'text', placeholder: 'search city'}
+      .row
+        .col-md-12{'ng-repeat': 'daily in Data.list | filter: firstDay'}
+          .text-center.status
+            %p.location
+              {{Data.city}}, {{Data.country}}
+            %p.date
+              {{daily.dt * 1000 | date: 'EEE, MMM dd, yyyy'}}
+            %p
+              {{daily.tmpDeg}} &#176;
+              %span.temp{'ng-click': 'Data.sys()'}
+                {{Data.unit}}
+            %p
+              {{daily.weather[0].main}}
+
+          .text-center.all-icon
+            .icon.drizzle{'ng-show': 'daily.showCase.drizzle'}
+              .cloud
+              .sun
+                .rays
+              .rain
+            .icon.thunder-storm.thunderstorm{'ng-show': 'daily.showCase.thunderstorm'}
+              .cloud
+              .lightning
+                .bolt
+                .bolt
+            .icon.cloudy.clouds{'ng-show': 'daily.showCase.clouds'}
+              .cloud
+              .cloud
+            .icon.flurries.snow{'ng-show': 'daily.showCase.snow'}
+              .cloud
+              .snow
+                .flake
+                .flake
+            .icon.sunny.clear{'ng-show': 'daily.showCase.clear'}
+              .sun
+                .rays
+            .icon.rain.rainy{'ng-show': 'daily.showCase.rain'}
+              .cloud
+              .rain
+      .row
+        .col-md-2{'ng-repeat': 'daily in Data.list | filter: remainDays'}
+          .text-center.status
+            %p.date
+              {{daily.dt * 1000 | date: 'EEE, MMM dd'}}
+            %p
+              {{daily.tmpDeg}} &#176;
+              %span.temp{'ng-click': 'Data.sys()'}
+                {{Data.unit}}
+            %p
+              {{daily.weather[0].main}}
+
+          .text-center.all-icon
+            .icon.drizzle{'ng-show': 'daily.showCase.drizzle'}
+              .cloud
+              .sun
+                .rays
+              .rain
+            .icon.thunder-storm.thunderstorm{'ng-show': 'daily.showCase.thunderstorm'}
+              .cloud
+              .lightning
+                .bolt
+                .bolt
+            .icon.cloudy.clouds{'ng-show': 'daily.showCase.clouds'}
+              .cloud
+              .cloud
+            .icon.flurries.snow{'ng-show': 'daily.showCase.snow'}
+              .cloud
+              .snow
+                .flake
+                .flake
+            .icon.sunny.clear{'ng-show': 'daily.showCase.clear'}
+              .sun
+                .rays
+            .icon.rain.rainy{'ng-show': 'daily.showCase.rain'}
+              .cloud
+              .rain
+      .row
+        .col-md-12.text-center
+          %p
+            \@
+            %a{href: 'https://github.com/Yijianc/weatherApp', target: '_blank'}Boyce
+    %script{src: 'http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'}
+    %script{src: 'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js'}
+    %script{src: 'js/index.js'}
+    %script{src: 'js/search.js'}
