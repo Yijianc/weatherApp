@@ -2,6 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e44a3c2-c027-4339-b351-924820506798" name="Default" comment="A weather app">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/print/paper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/print/pdf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/beige.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/blood.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/league.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/moon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/night.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/serif.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/sky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/solarized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/beige.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/black.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/blood.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/league.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/moon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/night.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/serif.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/simple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/sky.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/solarized.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/source/white.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/template/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/template/settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/template/theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/css/theme/white.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/js/reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/css/zenburn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/league-gothic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/league-gothic/league-gothic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/league-gothic/league-gothic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/league-gothic/league-gothic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/js/classList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/js/head.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/lib/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/highlight/highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/markdown/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/markdown/example.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/markdown/marked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/math/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/multiplex/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/multiplex/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/multiplex/master.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/notes-server/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/notes-server/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/notes-server/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/notes/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/notes/notes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/print-pdf/print-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/search/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/plugin/zoom-js/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/assets/image1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/assets/image2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/barebones.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/embedded-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/math.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/slide-backgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/examples/slide-transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/qunit-1.12.0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/qunit-1.12.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-markdown-element-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-markdown-element-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-markdown-slide-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-markdown-slide-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-pdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../reveal.js/test/test.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weatherApp.iws" />
@@ -26,7 +126,7 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
+            <state relative-caret-position="1008">
               <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
               <folding />
             </state>
@@ -60,7 +160,7 @@
       <file leaf-file-name="index.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/haml/index.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="324">
               <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,7 +175,7 @@
       <file leaf-file-name="index.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="270">
               <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
                 <element signature="e#192#405#0" expanded="false" />
@@ -197,10 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files" />
         <subPane subId="Project Files">
@@ -216,6 +312,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +429,8 @@
       <workItem from="1461341171631" duration="12117000" />
       <workItem from="1461377311329" duration="18029000" />
       <workItem from="1461397241066" duration="2425000" />
-      <workItem from="1461400016728" duration="26409000" />
+      <workItem from="1461400016728" duration="26592000" />
+      <workItem from="1461433070276" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="A weather app">
       <created>1461430313659</created>
@@ -352,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461432424139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="A weather app">
+      <created>1461432527744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1461432527744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87279000" />
+    <option name="totallyTimeSpent" value="87495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,22 +481,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14880952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.49702382" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32822084" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22427036" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -416,6 +524,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#128#609#0" expanded="false" />
+            <element signature="e#305#583#0" expanded="false" />
+            <element signature="e#670#4014#0" expanded="false" />
+            <element signature="e#820#1272#0" expanded="false" />
+            <element signature="e#1039#1120#0" expanded="false" />
+            <element signature="e#1173#1254#0" expanded="false" />
+            <element signature="e#1311#1358#0" expanded="false" />
+            <element signature="e#1396#2147#0" expanded="false" />
+            <element signature="e#2177#3038#0" expanded="false" />
+            <element signature="e#3064#3250#0" expanded="false" />
+            <element signature="e#3284#3826#0" expanded="false" />
+            <element signature="e#3866#3918#0" expanded="false" />
+            <element signature="e#3960#4012#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/haml/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#192#405#0" expanded="false" />
+            <element signature="e#611#7664#0" expanded="false" />
+            <element signature="e#619#7485#0" expanded="false" />
+            <element signature="e#733#2018#0" expanded="false" />
+            <element signature="e#2028#3303#0" expanded="false" />
+            <element signature="e#3326#3511#0" expanded="false" />
+            <element signature="e#3522#4194#0" expanded="false" />
+            <element signature="e#4210#6245#0" expanded="false" />
+            <element signature="e#6256#7485#0" expanded="false" />
+            <element signature="e#6455#7485#0" expanded="false" />
+            <element signature="e#6481#6801#0" expanded="false" />
+            <element signature="e#6818#7010#0" expanded="false" />
+            <element signature="e#7034#7485#0" expanded="false" />
+            <element signature="e#7053#7254#0" expanded="false" />
+            <element signature="e#7273#7485#0" expanded="false" />
+            <element signature="e#7494#7663#0" expanded="false" />
+            <element signature="e#7686#7795#0" expanded="false" />
+            <element signature="e#7821#7896#0" expanded="false" />
+            <element signature="e#7923#8095#0" expanded="false" />
+            <element signature="e#8121#8837#0" expanded="false" />
+            <element signature="e#8868#9061#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -463,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="57" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="57" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,23 +775,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/search.js" />
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,13 +790,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="270">
           <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="e#192#405#0" expanded="false" />
@@ -639,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/haml/index.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="324">
           <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -674,8 +860,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="1008">
           <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
