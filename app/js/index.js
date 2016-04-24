@@ -18,22 +18,17 @@ app.factory('WeatherApi', function ($http) {
             cnt = '&cnt=' + 7;
 
         return $http.get(api +  city + cnt + units + appid);
-    }
+    };
 
     return returnData;
 });
 
 app.controller('MainCtrl', function ($scope, WeatherApi) {
     $scope.Data = {};
-    $scope.Data.unit = 'C';
-    $scope.Data.sysChange = false;
 
     WeatherApi.getLoc()
               .success(function(data) {
-                  $scope.Data.city = data.city;
-                  $scope.Data.country = data.country;
-
-                  WeatherApi.getWeatherInfo($scope.Data.city)
+                  WeatherApi.getWeatherInfo(data.city)
                             .success(function(data) {
                               currentWeather(data);
                           })
@@ -46,92 +41,71 @@ app.controller('MainCtrl', function ($scope, WeatherApi) {
          });
 
     function currentWeather(data) {
-        $scope.Data.list = data.list;
-        $scope.Data.list.map(function (item) {
-            item.Fah = Math.round(item.temp.day * 9/5 +32);
-            item.tmpDeg = Math.round(item.temp.day);
-            return item;
-        });
+        $scope.Data.unit      = 'C';
+        $scope.Data.sysChange = false;
+        $scope.Data.city      = data.city.name;
+        $scope.Data.country   = data.city.country;
+        $scope.Data.list      = data.list;
         $scope.Data.list.map(function (item) {
             var w = item.weather[0].main.toLowerCase();
 
             item.showCase = {
-                'rain': false,
-                'clear': false,
-                'drizzle': false,
-                'clouds': false,
-                'snow': false,
+                'rain'        : false,
+                'clear'       : false,
+                'drizzle'     : false,
+                'clouds'      : false,
+                'snow'        : false,
                 'thunderstorm': false
             };
 
             item.showCase[w] = true;
 
-            return item.showCase;
-        });
-        console.log($scope.Data);
-        return iconGen($scope.Data.list);
-    }
+            item.tmpDeg = Math.round(item.temp.day);
+            item.Fah = Math.round(item.temp.day * 9/5 +32);
 
-    function iconGen(dayArr){
-        //var w = w.toLowerCase();
-        //console.log(w);
-        dayArr.forEach(function (item) {
-            var w = item.weather[0].main.toLowerCase();
-            switch(w) {
-                case 'drizzle':
-                    addIcon(w);
-                    break;
-                case 'clouds':
-                    addIcon(w)
-                    break;
-                case 'rain':
-                    addIcon(w)
-                    break;
-                case 'snow':
-                    addIcon(w)
-                    break;
-                case 'clear':
-                    addIcon(w)
-                    break;
-                case 'thunderstorm':
-                    addIcon(w)
-                    break;
-                default:
-                    $('div.clouds').removeClass('hide');
-                    break;
-            }
+            return item;
         });
-    }
-
-    function addIcon(w) {
-        //console.log(document.querySelectorAll('.' + w));
-        /*$('div.row').delegate('div.' + w, 'click', function () {
-         $(this).removeClass('hide');
-         });*/
     }
 
     $scope.Data.sys = function(){
         if($scope.Data.sysChange){
             $scope.Data.unit ='C';
+
             $scope.Data.list.map(function (item) {
                 return item.tmpDeg = Math.round(item.temp.day);
             });
-            //$scope.Data.temp = $scope.Data.Cel;
+
             return $scope.Data.sysChange = false;
         }
+
         $scope.Data.unit ='F';
         $scope.Data.list.map(function (item) {
             return item.tmpDeg = item.Fah;
         });
-        //$scope.Data.temp = $scope.Data.Fah;
+
         return $scope.Data.sysChange = true;
-    }
+    };
 
     $scope.firstDay = function (item) {
         return item === $scope.Data.list[0];
-    }
+    };
 
     $scope.remainDays = function (item) {
         return item !== $scope.Data.list[0];
-    }
+    };
+
+    $scope.update = function (city) {
+        var city = angular.copy(city);
+        WeatherApi.getWeatherInfo(city)
+                  .success(function (data) {
+                      console.log(data);
+                      currentWeather(data);
+                  })
+                  .error(function (error) {
+                      console.log('error');
+                  });
+        console.log($scope.Data);
+    };
+
+    console.log($scope.Data);
 });
